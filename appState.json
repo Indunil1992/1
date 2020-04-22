@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "1.js",
         "cursor": {
-          "lineNumber": 1,
-          "column": 1
+          "lineNumber": 15,
+          "column": 49
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -24,7 +24,7 @@
         },
         "triggers": [
           {
-            "resourceName": "apigusEast1sachithraAPInameteststgingindjany",
+            "resourceName": "apigusEast1zqainduany",
             "config": {}
           }
         ],
@@ -88,6 +88,25 @@
             "name": "btbucket.images"
           }
         }
+      },
+      "apigusEast1zqainduany": {
+        "name": "apigusEast1zqainduany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 0,
+          "apiName": "z",
+          "endpointType": "REGIONAL",
+          "resourceMode": 0,
+          "resourceName": "qa/indu",
+          "resourcePath": "/qa/indu",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "test",
+          "mode": 0
+        }
       }
     },
     "customTemplate": {
@@ -125,7 +144,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1587544852108
+    "lastSave": 1587545281061
   },
   "VCS_STATE": {
     "provider": "GitHub",
